@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
-  const API_URL = 'YOUR_API_GATEWAY_URL'; // Replace later
+const API_URL = 'https://n91u21ekfl.execute-api.ap-south-1.amazonaws.com/api/tasks'; // Replace later
 
   const fetchTasks = async () => {
     try {
